@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "wdio": "wdio run test/wdio.conf.ts"
+        "wdio": "wdio run wdio.conf.ts"
     },
     "author": "",
     "license": "ISC",
