@@ -1,10 +1,11 @@
 type MailosaurCredentials = {
     apiKey: string;
     serverId: string;
-    phone?: string;
+    serverDomain?: string;
 };
 
 export const credentials: MailosaurCredentials = {
     apiKey: "GMc1RroQQLmsWRFM",
-    serverId: "walk-equally@v4ntixod.mailosaur.net"
+    serverId: "v4ntixod",
+    serverDomain: "v4ntixod.mailosaur.net"
 }
