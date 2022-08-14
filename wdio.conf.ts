@@ -24,7 +24,7 @@ export const config: Options.Testrunner = {
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
     bail: 1,
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://mailosaur.com/',
 
     waitforTimeout: 10000,
     connectionRetryTimeout: 60000,
